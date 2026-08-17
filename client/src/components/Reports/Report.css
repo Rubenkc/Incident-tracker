@@ -1,0 +1,62 @@
+.ReportCard{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    gap: .4rem;
+    overflow-wrap: break-word;
+}
+.ReportCard p{
+    font-size: small;
+    font-weight: 200;
+}
+
+.ReportDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .4rem;
+    
+}
+.ReportDetails h5 {
+    font-weight: 500;
+}
+.CardUsername{
+    font-weight: 590;
+    color: #4e498b;
+}
+.SpecialButtonSec{
+    display: flex;
+    align-content: center;
+}
+.AdminSec{ 
+    display: flex;
+    align-content: center;
+    flex: 1 1 auto;
+    max-width: 350px;
+    gap: .5rem;
+}
+.ReportCard button {
+    border: 1px solid #2d0971;
+    color: #2d0971;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 80px;
+    padding: .1rem;
+}
+.ReportCard button:hover{
+    background-color: #2d0971;
+    color: white;
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.DeleteButton{
+    flex: 0 1 80px;
+    min-width: 80px;
+    margin-left: auto;
+}
+@media (max-width:768px){
+    .ReportDetails{
+        flex-direction: column;
+    }
+}

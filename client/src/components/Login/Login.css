@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.LogHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+
+}
+
+.LogCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 1px rgb(0 0 0 / 0.1);
+    width: 35%;
+    gap: 2.8rem;
+    padding: 2em;
+}
+.LogForm{
+ display: flex;
+ flex-direction: column;
+ gap: 1.3rem;
+ width: 90%;
+ 
+}
+.LogTitle{
+    font-weight: 380;
+    font-size: 2.3rem;
+    color: #2d0971;
+    margin-bottom: 2rem;
+}
+
+.LogLab {
+    display: block;
+}
+.LogInp{
+    border: 2px solid #000000;
+    border-radius: .9rem;
+    padding: .6rem;
+    margin-top: .2rem;
+    width: 100%;
+    transition: outline-offset 250ms ease,
+    outline-color 250ms ease;
+}
+.LogInp:focus{
+    outline: 3px solid #2d0971;
+    outline-offset: 1px;
+}
+.LogCheckbox{
+    display: flex;
+    gap: .2rem;
+}
+.LogButton{
+    padding: .5em;
+    border: 2px solid #2d0971;
+    border-radius: .8rem;
+    color: #2d0971;
+    background-color: #ffffff;
+    width: 100%;
+}
+.LogButton:hover {
+    color: #ffffff;
+    background-color: #2d0971;
+    transform: translateY(-2px);
+}
+.LogLink{
+    color: #000000;
+    text-decoration: none;
+}
+.LogLink:hover{
+    color:#2d0971;
+    text-decoration: underline;
+}
+
+@media(max-width:768px){
+    .LogButton{
+        border-width: 1px;
+    }
+    .LogInp{
+        border-width: 1px;
+    }
+    .LogCard{
+        width: 100%;
+    }
+}

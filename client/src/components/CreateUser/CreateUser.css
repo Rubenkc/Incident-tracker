@@ -1,0 +1,77 @@
+.NUPage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.NUtitle{
+    font-weight: 380;
+    font-size: 2.3rem;
+    color: #2d0971;
+    margin-bottom: 2rem;
+   
+}
+.NUCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 2.8rem;
+    gap: .7rem;
+    box-shadow: 0 4px 5px -1px rgb(0 0 0 / 0.1);
+}
+
+.NUForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .7rem;
+    margin: 1.5rem;
+    width: 100%;
+    max-width: 450px;
+    
+}
+.NUlabel{
+    display: block;
+}
+.NUInp{
+    border: 1px solid lightgray;
+    border-radius: .9rem;
+    padding: .6rem;
+    margin-top: .2rem;
+    width: 100%;
+    transition: outline-color 250ms ease,
+    outline-offset 250ms ease;
+}
+.NUInp:focus{
+    outline: 2px solid #2d0971;
+    outline-offset: 1px;
+}
+.NUbutton{
+    border: solid;
+    color: #2d0971;
+    padding: .5rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+.NUbutton:hover{
+    background-color: #2d0971;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+.NUlink {
+    text-decoration: none;
+    color: #000000;
+}
+.NUlink:hover{
+    text-decoration: underline;
+    color: #2d0971;
+}
+.NUcheck{
+    display: flex;
+    gap: .2rem;
+}

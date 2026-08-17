@@ -1,0 +1,61 @@
+
+.DeleteCard{
+    box-shadow: 0 0 3px 2px rgb(0 0 0/.1);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem;
+    margin: .5rem auto 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+.DeletePage{
+    padding: 2rem;
+    width: 100%;
+}
+.DeleteForm{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.DeleteButtonSec{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+   
+}
+.DeleteButtonSec button{
+    background-color: #aa1010db;
+    color: #ffffffd1;
+    border-color: transparent;
+    padding: .2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.DeleteButtonSec button:hover{
+    transform: translateY(-2px);
+    color: #ffffffd1;
+    background-color:#bb1111ca;
+    border-color: black;
+}
+.DeleteLink{    
+    text-decoration: none;
+}
+.DeleteLink:hover{
+    text-decoration: underline;
+}
+.DeleteCard h3{
+    font-weight: 600;
+    box-shadow: 0 2px 2px -1px rgb(0 0 0/.1);
+}
+.DeleteForm label {
+    display: block;
+}
+.DeleteInp{
+    width:50%
+}
+.DeleteInp:focus {
+    outline-color: #ff0000;
+    outline-width: 2px;
+}

@@ -1,0 +1,16 @@
+.ReportPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem 2rem 1rem 2rem;    
+}
+.ReportTitle{
+    font-weight: 700;
+    color: #4e498b;
+}
+.ViewRepList{
+  margin: 0 2rem 0 2rem;
+
+}

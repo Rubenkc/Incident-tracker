@@ -1,0 +1,13 @@
+#map {
+height: 100dvh;
+width: 100%;
+}
+.marker{
+    height: 20px;
+    width: 20px;
+
+}
+
+.marker:hover{
+    cursor: pointer;
+}

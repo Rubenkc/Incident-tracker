@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+.NavContainer{
+    width: 100%;
+}
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #a8a3f6;
+    height: 70px;
+    width: 100%;
+
+    box-shadow: 0 10px 5px -5px rgb(0 0 0 / 0.1);
+    padding: 0 1rem 0 1rem;
+
+}
+.NavBar ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+.Navitems a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    max-width: 1rem;
+}
+.Navitems a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+.DropdownButton {
+    padding: .25rem;
+    margin: 0;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-weight: 400;
+    cursor: pointer;
+    max-width: 6rem;
+    background-color: transparent;
+    color: #000000;
+}
+
+.Navitems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    max-width: 800px;
+    flex: 0 1 auto;
+    
+
+
+}
+.NavTitle{
+    color: #ffffff;
+    flex: 0 1 2rem;
+    max-width: 2rem;
+    font-weight: 700;
+}
+
+
+.Dropdowncontainer{
+    position: relative;
+
+}
+.NavDropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid #000000;
+    right: 0;
+    gap: .1rem;
+    background-color: #ffffff;
+    min-width: 9rem;
+}
+.LogoutButton{
+    display: block;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    color: #000000;
+}
+.NavDropdown li{
+    padding:.25rem;
+}
+.NavDropdown a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.Dropdowncontainer li:hover{
+    background-color: #a8a3f6;
+    text-decoration: underline;
+}
+.AdminLogout{
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.AdminLogout:hover{
+    text-decoration: underline;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+@media(max-width: 768px){
+    .NavLinks{
+        display: none;
+    }
+}
+@media(min-width: 769px){
+    .DropLinks{
+        display: none;
+    }
+}

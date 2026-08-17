@@ -1,0 +1,61 @@
+.HomeLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeCardContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 2rem;
+
+}
+.HomeCard{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 4px rgb(0 0 0/.1);
+    width: 800px;
+    max-height: 450px;
+    padding: .5rem;
+    gap: 1.5rem;
+}
+
+.HomeTabs{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin: 1.5rem 0 1.5rem 0;
+    width: 50%;
+}
+
+.HomeTabs button {
+     font-weight: 350;
+     font-size: 1rem;
+     border: none;
+     background-color: transparent;
+     color: #000000;
+}
+.HomeTabs button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.AdminPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+@media(max-width:768px){
+    .HomeCard{
+        width:350px
+    }
+    .HomeTabs{
+        gap: 1rem;
+    }
+}
